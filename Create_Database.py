@@ -58,7 +58,7 @@ try:
     # Creating table backorderlist
     
     sqlStatement = """CREATE TABLE `library`.`backorderlist` (
-      `backorderid` INT NOT NULL,
+      `backorderid` INT NOT NULL AUTO_INCREMENT,
       `orderid` INT NULL DEFAULT NULL,
       `quantity` INT NULL DEFAULT NULL,
       PRIMARY KEY (`backorderid`));
