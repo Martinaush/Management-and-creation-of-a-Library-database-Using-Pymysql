@@ -14,5 +14,9 @@ Find here an explanation of each script:
       - Orderlist: current orders list
       
  Moreover, with this python script we populated "Stocklist" importing data from the csv obtained in Creation_of_Books called "books.csv"
+ 
+  3-. 01_Trigger: this trigger was executed through WorkBench BEFORE UPDATE in the table Orderlist. In specific this trigger sets fulfilled = 1 in orderlist if there is enough availability for this book. Contrary, if there is not it inserts the order in stocklist and fulfilled = 0.
+  
+  
       
    
