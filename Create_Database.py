@@ -103,8 +103,6 @@ try:
     
     file = open('books.csv', encoding = "utf8")
 
-    file = open('books.csv', encoding = "utf8")
-
     count = 0
 
     for book in file:
