@@ -23,7 +23,15 @@ Note: as books.csv is in the repository this .py do not be executed.
   5-. 01_Store_Procedure: this store procedure was run through Workbench. Moreover, this store procedure goes by the hand with 02_Trigger because of the functionality of this script is to update the waiting list.
   (I.e. if there is someone waiting for a book and its disponibility has been updated, we need to consider if his order could be processed now)
   
-  4-. Indexes: it has been created 3 indexes to do the searches in a more efficient way. These indexes have been created on each primary key of each table.
+  6-. Indexes: it has been created 3 indexes to do the searches in a more efficient way. These indexes have been created on each primary key of each table.
+  
+  7-. Menu: in this script there is an interactive menu to do manipulations to the database. These are
+  
+      - Inserting a new order
+      
+      - Find a book
+      
+      - Returning an order
   
   
       
