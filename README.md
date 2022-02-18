@@ -1,4 +1,4 @@
-# Project_3
+# Management and creation of a Library database Using Pymysql 
 
 Find here an explanation of each script:
 
